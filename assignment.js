@@ -14,8 +14,8 @@ function kilometerToMeter(inputValue){
 
 }
 
-var finalResult = kilometerToMeter(23);
-console.log(finalResult);
+// var finalResult = kilometerToMeter(23);
+// console.log(finalResult);
 
 //=== Javascript budgetCalculator problem solution===//
 
