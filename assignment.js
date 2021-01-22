@@ -64,13 +64,13 @@ function hotelCost(dayInHire){
 //=== Javascript finding largest array problem solution  ===/
 
 
-function megaFriend(listOfArray){
+function megaFriend(listOfFriend){
     var largest="";
 
-    for(var i=0;i<listOfArray.length; i++){
+    for(var i=0;i<listOfFriend.length; i++){
 
-       if (listOfArray[i].length>largest.length){
-          largest=listOfArray[i];
+       if (listOfFriend[i].length>largest.length){
+          largest=listOfFriend[i];
        }
     } 
     return largest;
