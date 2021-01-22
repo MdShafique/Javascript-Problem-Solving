@@ -3,9 +3,9 @@
 
 //====javascript Kilometer to Meter converter problem solution===//
 
-function kilometerToMeter(number){
-    var result = number * 1000;
-    if(number > 0 ){
+function kilometerToMeter(inputValue){
+    var result = inputValue * 1000;
+    if(inputValue > 0 ){
         return result;
     }
     else{
@@ -14,8 +14,8 @@ function kilometerToMeter(number){
 
 }
 
-// var finalResult = kilometerToMeter(23);
-// console.log(finalResult);
+var finalResult = kilometerToMeter(23);
+console.log(finalResult);
 
 //=== Javascript budgetCalculator problem solution===//
 
