@@ -2,37 +2,38 @@
 
 
 //====javascript Kilometer to Meter converter problem solution===//
+
 function kilometerToMeter(number){
     var result = number * 1000;
     if(number > 0 ){
         return result;
     }
     else{
-        return "I find My Father-in-law's house";
+        return "Please Insert Positive Value";
     }
 
 }
 
-var finalResult = kilometerToMeter(-13);
-console.log(finalResult);
+// var finalResult = kilometerToMeter(23);
+// console.log(finalResult);
 
 //=== Javascript budgetCalculator problem solution===//
 
-function budgetCalculator(num1, num2, num3){
-    var watchPrice = num1 * 50;
-    var mobilePrice = num2 * 100;
-    var laptopPrice = num3 * 500;
+function budgetCalculator(value1, value2, value3){
+    var watchPrice = value1 * 50;
+    var mobilePrice = value2 * 100;
+    var laptopPrice = value3 * 500;
     var totalPrice = watchPrice + mobilePrice + laptopPrice;
-    if (num1 >= 0 && num2 >= 0 && num3 >= 0){
+    if (value1 >= 0 && value2 >= 0 && value3 >= 0){
         return totalPrice;
     }
     else {
-        return "You must buy atleast 3 items";
+        return "Please Insert Three Value ";
     }
 }
 
-var totalcost = budgetCalculator(5,6);
-console.log(totalcost);
+// var totalcost = budgetCalculator(5, 6, 3);
+// console.log(totalcost);
 
 
 // ===javascript hotelCost problem solution===//
@@ -57,22 +58,23 @@ function hotelCost(dayInHire){
     }
       return totalCost;
 }
-      var result = hotelCost(30);
-      console.log(result);
+    //   var result = hotelCost(30);
+    //   console.log(result);
 
 //=== Javascript finding largest array problem solution  ===/
 
-function megaFriend(arr){
+
+function megaFriend(listOfArray){
     var largest="";
 
-    for(var i=0;i<arr.length;i++){
+    for(var i=0;i<listOfArray.length; i++){
 
-       if (arr[i].length>largest.length){
-          largest=arr[i];
+       if (listOfArray[i].length>largest.length){
+          largest=listOfArray[i];
        }
     } 
     return largest;
  }
  
-  var result = megaFriend(["olil", "kolil", "jolilor", "tolilas"]);
-  console.log(result);
+//   var result = megaFriend(["olil", "kolil", "jolilor", "tolilas"]);
+//   console.log(result);
